@@ -6,6 +6,27 @@ The project also includes a protected administration dashboard, MySQL content-ma
 
 Visitors can optionally create an account, sign in, and maintain a basic profile and language preference. Public emergency guidance never requires an account; household plans and checklists remain device-local for offline access and privacy.
 
+## Project overview
+
+Disaster Safety Guide gives individuals and families practical information and tools to prepare for emergencies. It brings disaster guidance, first-aid learning, emergency contacts, and household preparedness features together in a mobile-friendly web app.
+
+### Main features
+
+- Step-by-step disaster guides with preparation, response, and recovery information.
+- First-aid learning guides and regional emergency contacts.
+- An emergency-kit checklist and household safety plan.
+- Search, saved guides, an awareness quiz, and English, Telugu, and Hindi language options.
+- Offline access to the application and bundled guidance after the first successful load.
+- Optional user accounts for a basic profile and preferred language.
+- An administrator dashboard for emergency-contact management and feedback review.
+- A feedback form for reporting information, contact, translation, and accessibility issues.
+
+### Deployment status
+
+The frontend, backend, and database have been deployed. The frontend is a static PWA, the backend is a Node.js/Express API, and MySQL stores server-managed records. Deployment URLs and environment-specific health are not included here; configure hosting secrets outside source control and verify each service in its hosting environment.
+
+The app does not send live alerts or contact emergency services on a user's behalf. Offline household plans, checklist progress, bookmarks, and language preference are stored in the user's browser rather than uploaded.
+
 ## Why this stack
 
 - **Vanilla HTML, CSS and JavaScript PWA:** very small download, fast on lower-powered phones, and easy to cache for offline use.
